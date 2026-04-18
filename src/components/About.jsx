@@ -493,7 +493,7 @@ export const About = memo(() => {
                   >
                     <img
                       src={logo}
-                      alt=""
+                      alt="logo"
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
