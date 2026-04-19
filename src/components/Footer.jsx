@@ -33,7 +33,7 @@ export const Footer = () => {
           <a
             href="https://www.facebook.com/JanelGuedemey"
             target="_blank"
-            className="p-3 rounded-full border border-neutral-700 hover:border-blue-500 hover:text-blue-500 transition"
+            className="p-3 rounded-full border border-neutral-700 hover:border-blue-500 hover:text-blue-500 transition"  aria-label="Voir mon Facebook"
           >
             <FaFacebookF size={16} />
           </a>
@@ -41,7 +41,7 @@ export const Footer = () => {
           <a
             href="https://wa.me/22951212249"
             target="_blank"
-            className="p-3 rounded-full border border-neutral-700 hover:border-green-500 hover:text-green-500 transition"
+            className="p-3 rounded-full border border-neutral-700 hover:border-green-500 hover:text-green-500 transition" aria-label="Me contacter via whatsapp"
           >
             <FaWhatsapp size={16} />
           </a>
@@ -49,7 +49,7 @@ export const Footer = () => {
           <a
             href="https://github.com/Janel731"
             target="_blank"
-            className="p-3 rounded-full border border-neutral-700 hover:border-white hover:text-white transition"
+            className="p-3 rounded-full border border-neutral-700 hover:border-white hover:text-white transition" aria-label="Voir mon GitHub"
           >
             <FaGithub size={16} />
           </a>

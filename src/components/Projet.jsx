@@ -42,7 +42,7 @@ export const Projet = memo( () => {
     description:
       "Mon portfolio présente mes compétences en design et en développement web. Il met en avant mes projets et mon savoir-faire à travers une interface moderne. Le design est pensé pour capter l’attention et valoriser chaque réalisation. L’objectif est de convaincre clients et recruteurs. Il reflète ma créativité, ma rigueur et mon expertise technique.",
     image: porto,
-    lien:""
+    lien:"https://janelguedemey.vercel.app/"
   },
 ];
 
@@ -130,8 +130,8 @@ export const Projet = memo( () => {
             />
 
             {/* ICON (bottom left) */}
-            <a href={block.lien} className="absolute bottom-3 right-3  p-2 rounded-full border-anthracite-clair border-2">
-               <ArrowUpRight size={24} />
+            <a href={block.lien} className="absolute bottom-3 right-3  p-2 rounded-full border-anthracite-clair border-2" aria-label="Voir le site en live">
+               <ArrowUpRight size={24}  />
             </a>
           </div>
         </div>

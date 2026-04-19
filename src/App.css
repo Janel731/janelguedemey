@@ -93,6 +93,11 @@ background: linear-gradient(90deg, rgb(0, 71, 171) 0%, rgb(0, 71, 171) 40%, rgba
   white-space: pre-wrap; 
 }
 
+button, a {
+  min-width: 44px;
+  min-height: 44px;
+}
+
 
 @media (max-width: 768px) {
   .facture{
