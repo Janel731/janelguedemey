@@ -312,7 +312,7 @@ export const About = memo(() => {
 
             <div
               id="devpenseur"
-              className="relative w-[300px] h-[400px] rounded-[32px] m-auto md:m-8"
+              className="relative w-[300px] h-[500px] rounded-[32px] m-auto md:m-8"
             >
               <img
                 className="relative w-full h-full object-cover rounded-[32px] z-10"
