@@ -15,7 +15,8 @@ export const Projet = memo( () => {
     description:
       "Plateforme digitale mettant en avant une activité de vente de vêtements avec une identité visuelle forte. Il se distingue par un design soigné et une navigation fluide. L’objectif est de valoriser les services proposés tout en créant une connexion avec les visiteurs. Le contenu est structuré pour capter l’attention et guider l’utilisateur.",
     image: mc,
-    lien:"https://chez-melek.vercel.app/"
+    lien:"https://chez-melek.vercel.app/" ,
+    aria:"Voir le site de chez meleck en live"
   },
   {
     id: 2,
@@ -24,7 +25,8 @@ export const Projet = memo( () => {
     description:
       "Le site du concert de Vano (Challenge en FuturCraftInstitut & ESM-Benin) a été conçu pour promouvoir les 10ans de carrière de l'artiste. Il met en avant l’artiste, les informations essentielles. Le site centralise toute la communication autour de l’événement.",
     image: vanoSite,
-    lien:"https://vano-site.vercel.app/"
+    lien:"https://vano-site.vercel.app/",
+    aria:"Voir le site de  vano   en live"
   },
   {
     id: 3,
@@ -32,8 +34,10 @@ export const Projet = memo( () => {
     badges: ["Landing page", "Food Design"],
     description:
       "Le site Esta Délices met en avant les produits de la pâtisserie à travers des visuels attrayants. Il permet de découvrir les différentes offres et spécialités proposées. Le design chaleureux donne envie et renforce l’image de la marque. Le site facilite la prise de contact et les commandes. Il sert d’outil efficace pour attirer et fidéliser les clients.",
-    image: paesta,
-    lien:"https://patisserie-esta-delices.vercel.app/"
+    
+      image: paesta,
+    lien:"https://patisserie-esta-delices.vercel.app/",
+    aria:"Voir le site patisserie live"
   },
   {
     id: 4,
@@ -42,7 +46,8 @@ export const Projet = memo( () => {
     description:
       "Mon portfolio présente mes compétences en design et en développement web. Il met en avant mes projets et mon savoir-faire à travers une interface moderne. Le design est pensé pour capter l’attention et valoriser chaque réalisation. L’objectif est de convaincre clients et recruteurs. Il reflète ma créativité, ma rigueur et mon expertise technique.",
     image: porto,
-    lien:"https://janelguedemey.vercel.app/"
+    lien:"https://janelguedemey.vercel.app/",
+    aria:"Voir mon potfolio"
   },
 ];
 

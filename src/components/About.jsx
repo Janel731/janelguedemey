@@ -329,8 +329,8 @@ export const About = memo(() => {
             id="story"
             className="flex flex-col gap-4 max-w-[500px] w-full p-6 oswald font-light text-gris-moyen text-xl md:text-2xl"
           >
-            <p className="text break-words">
-              <span id="story1" className="text-2xl rajdhani-bold text-blanc">
+            <p className="text break-words" aria-label="Texte complet visible pour lecteurs d’écran" aria-hidden="true">
+              <span id="story1" className="text-2xl rajdhani-bold text-blanc" >
                 Parcours
               </span>
               <br />
