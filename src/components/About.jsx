@@ -517,7 +517,7 @@ export const About = memo(() => {
               <h4 className="rajdhani-bold text-blanc text-[24px]">
                 Landing page
               </h4>
-              <p className="text-blanc/70 text-[21px] oswald">
+              <p className="text-blanc text-[21px] oswald">
                 Une page pensée pour convertir lancement, produit, service,
                 événement.
               </p>

@@ -89,13 +89,14 @@ background: linear-gradient(90deg, rgb(0, 71, 171) 0%, rgb(0, 71, 171) 40%, rgba
 }
 
 .word {
-  opacity: 0.5;
+  opacity: 0.9;
   white-space: pre-wrap; 
 }
 
 button, a {
   min-width: 44px;
   min-height: 44px;
+  padding: 10px;
 }
 
 

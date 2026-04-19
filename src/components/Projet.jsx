@@ -135,7 +135,7 @@ export const Projet = memo( () => {
             />
 
             {/* ICON (bottom left) */}
-            <a href={block.lien} className="absolute bottom-3 right-3  p-2 rounded-full border-anthracite-clair border-2" aria-label="Voir le site en live">
+            <a href={block.lien} className="absolute bottom-3 right-3  p-2 rounded-full border-anthracite-clair border-2" aria-label={block.aria}>
                <ArrowUpRight size={24}  />
             </a>
           </div>
