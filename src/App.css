@@ -89,7 +89,7 @@ background: linear-gradient(90deg, rgb(0, 71, 171) 0%, rgb(0, 71, 171) 40%, rgba
 }
 
 .word {
-  opacity: 0.02;
+  opacity: 0.5;
   white-space: pre-wrap; 
 }
 

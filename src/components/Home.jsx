@@ -104,7 +104,7 @@ export const Home = memo( () => {
 
           <button className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full p-4 bg-noir  oswald">
             <div className="inline-flex h-12 translate-y-0 items-center justify-center  bg-noir text-blanc transition group-hover:-translate-y-[150%]">
-              <a href="https://wa.me/22951212249">Discutons de votre projet</a>
+              <a href="https://wa.me/22951212249" >Discutons de votre projet</a>
             </div>
             <div className="absolute inline-flex h-12 w-full translate-y-full items-center justify-center bg-blanc text-noir transition duration-300 group-hover:translate-y-0">
               <a href="https://wa.me/22951212249">Discutons de votre projet</a>
