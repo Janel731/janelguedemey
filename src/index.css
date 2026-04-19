@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /*  Brand principal */
+  --color-anthracite:#2F2F2F;
+  --color-bleu: #0047AB;
+  --color-dore:#C5A059;
+
+  
+
+  /*  Dark system */
+  --color-noirProf: #1A1A1A;
+  --color-anthracite-clair: #3D3D3D;
+  --color-gris-moyen:#A8A8A8;
+  --color-noir:#000000;
+
+  /*  Light system */
+  --color-blanc: #FFFFFF;
+  --color-blanc2: #F5F5F3;
+
+
+  /* Deep accent*/
+  --color-deep: #07316C;
+
+  /* Animation de bande */
+  --animate-scroll-left: scroll-left 30s linear infinite;
+  --animate-scroll-right: scroll-right 30s linear infinite;
+}
+
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-33.333%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@plugin "flyonui";
+

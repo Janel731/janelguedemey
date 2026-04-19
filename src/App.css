@@ -1,0 +1,102 @@
+.facture{
+    font-size: 48px;
+    background: linear-gradient(90deg, rgb(0, 71, 171) 0%, rgb(0, 71, 171) 40%, rgba(0, 71, 171, 0.15) 100%) text;
+     -webkit-text-fill-color: transparent;
+}
+
+.two{
+  background: linear-gradient(90deg, rgb(0, 71, 171) 0%, rgb(0, 71, 171) 40%, rgba(0, 71, 171, 0.15) 100%) text;
+     -webkit-text-fill-color: transparent;
+}
+
+.bg-two{
+background: linear-gradient(90deg, rgb(0, 71, 171) 0%, rgb(0, 71, 171) 40%, rgba(0, 71, 171, 0.15) 100%);
+     
+}
+
+.border-two{
+  border-color: linear-gradient(90deg, rgb(0, 71, 171) 0%, rgb(0, 71, 171) 70%, rgba(0, 71, 171, 0.15) 100%);
+}
+
+.rajdhani-light {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rajdhani-regular {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rajdhani-semibold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.rajdhani-bold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.line {
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 71, 171, 0.1),
+    rgba(0, 71, 171, 0.35),
+    rgba(0, 71, 171, 0.1),
+    transparent
+  );
+  opacity: 0.9;
+}
+
+.deco{
+ 
+  background: rgba(0, 71, 171, 0.35);
+}
+
+.services div{
+  border-radius: 16px;
+}
+
+.contour{
+  -webkit-text-stroke: 1px white;
+}
+
+.word {
+  opacity: 0.02;
+  white-space: pre-wrap; 
+}
+
+
+@media (max-width: 768px) {
+  .facture{
+    font-size: 32px;
+}
+}
+
