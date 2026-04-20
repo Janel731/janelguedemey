@@ -514,15 +514,15 @@ export const About = memo(() => {
 
           <div className="services flex flex-col pl-18 md:flex-row md:justify-center gap-8">
             <div className="w-[200px] bg-dore p-4">
-              <h4 className="rajdhani-bold text-blanc text-[24px]">
+              <h4 className="rajdhani-bold text-[#171717] text-[24px]">
                 Landing page
               </h4>
-              <p className="text-blanc text-[21px] oswald">
+              <p className="text-[#171717] text-[21px] oswald">
                 Une page pensée pour convertir lancement, produit, service,
                 événement.
               </p>
               <div className="relative flex  before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:bg-blanc hover:before:w-[100px] transition-all before:duration-500 before:ease-out">
-                <a className="text-blanc" href="https://wa.me/22951212249">
+                <a className="text-[#171717]" href="https://wa.me/22951212249">
                   Contactez-moi
                 </a>
                 <ArrowUpRight />

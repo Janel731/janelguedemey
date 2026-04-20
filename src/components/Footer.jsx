@@ -57,7 +57,7 @@ export const Footer = () => {
       </div>
 
       {/* BOTTOM */}
-      <div className="mt-10 text-center text-xs text-neutral-600">
+      <div className="mt-10 text-center text-xs text-[#C4C4C4]">
         © {new Date().getFullYear()} Mon Portfolio. Tous droits réservés.
       </div>
     </footer>
