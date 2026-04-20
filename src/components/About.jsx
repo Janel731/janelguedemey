@@ -209,8 +209,6 @@ export const About = memo(() => {
           trigger: ".story-section",
           start: "top top",
           end: "+=700",
-          scrub: true,
-          pin: true,
           markers: false,
         },
       });

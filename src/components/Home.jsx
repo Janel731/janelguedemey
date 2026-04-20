@@ -8,15 +8,9 @@ export const Home = memo( () => {
   const buttonRef = useRef();
   useEffect(() => {
     const ctx = gsap.context(() => {
-      const tl = gsap.timeline();
-      tl.from("h1", {
-        opacity: 0,
-        duration: 1,
-        delay: 0.5,
-        filter: "blur(4px)",
-      });
+      
 
-      tl.from("p", {
+      gsap.from("p", {
         y: 10,
         opacity: 0,
         duration: 1,
