@@ -1,0 +1,12 @@
+# robots.txt — janelguedemey.vercel.app
+# Autorise tous les moteurs de recherche à explorer le site
+
+User-agent: *
+Allow: /
+
+
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap
+Sitemap: https://janelguedemey.vercel.app/sitemap.xml
