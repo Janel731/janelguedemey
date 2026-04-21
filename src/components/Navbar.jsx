@@ -42,6 +42,8 @@ export const Navbar = memo(() => {
                 <li className="relative text-blanc before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:bg-blanc hover:before:w-full before:duration-500 before:ease-out"><a href="#skills">Compétences</a></li>
                 <li className="relative text-blanc before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:bg-blanc hover:before:w-full before:duration-500 before:ease-out"><a href="#Contact">Contact</a></li>
             </ul>
+
+            
         
     </div>
   )
