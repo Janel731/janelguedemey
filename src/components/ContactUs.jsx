@@ -135,7 +135,7 @@ export const ContactUs = memo(() => {
   return (
     <section ref={container} className="mt-8 p-2 md:p-12" id="Contact">
       <h3 className="text-center text-3xl rajdhani-bold text-blanc">
-        Un projet en texte?
+        Un projet en tête?
         <span className="text-dore">Parlons-en.</span>
       </h3>
 
